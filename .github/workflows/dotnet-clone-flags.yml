@@ -1,0 +1,52 @@
+name: .NET Clone LaunchDarkly Flags
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_project:
+        description: 'Source Project Key'
+        required: true
+        type: string
+      destination_project:
+        description: 'Destination Project Key'
+        required: true
+        type: string
+      flag_keys:
+        description: 'Colon-separated Flag Keys (e.g., flag1:flag2)'
+        required: true
+        type: string
+
+jobs:
+  clone-flags:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore dotnet-clone/LdFlagCloner/LdFlagCloner.csproj
+
+      - name: Build
+        run: dotnet build dotnet-clone/LdFlagCloner/LdFlagCloner.csproj --configuration Release --no-restore
+
+      - name: Run Clone Utility
+        env:
+          LD_API_KEY: ${{ secrets.LD_API_KEY }}
+        run: |
+          dotnet run --project dotnet-clone/LdFlagCloner/LdFlagCloner.csproj --configuration Release --no-build -- \
+            --source "${{ inputs.source_project }}" \
+            --destination "${{ inputs.destination_project }}" \
+            --flags "${{ inputs.flag_keys }}"
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ld-flag-data
+          path: |
+            payload_*.json
+            variation_*.json

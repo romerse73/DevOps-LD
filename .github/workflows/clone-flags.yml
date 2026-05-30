@@ -1,0 +1,41 @@
+name: Clone LaunchDarkly Flags
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_project:
+        description: 'Source Project Key'
+        required: true
+        type: string
+      destination_project:
+        description: 'Destination Project Key'
+        required: true
+        type: string
+      flag_keys:
+        description: 'Colon-separated Flag Keys (e.g., flag1:flag2)'
+        required: true
+        type: string
+
+jobs:
+  clone-flags:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Clone Utility
+        env:
+          LD_API_KEY: ${{ secrets.LD_API_KEY }}
+        run: |
+          npx ts-node clone-flags.ts \
+            --source "${{ inputs.source_project }}" \
+            --destination "${{ inputs.destination_project }}" \
+            --flags "${{ inputs.flag_keys }}"

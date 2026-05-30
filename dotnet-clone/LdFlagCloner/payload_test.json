@@ -1,0 +1,39 @@
+{
+  "name": "test",
+  "kind": "boolean",
+  "description": "",
+  "key": "test",
+  "includeInSnippet": true,
+  "clientSideAvailability": {
+    "usingMobileKey": true,
+    "usingEnvironmentId": true
+  },
+  "variations": [
+    {
+      "_id": "4897d118-d9ff-4bcc-86d0-75d586246c01",
+      "value": true
+    },
+    {
+      "_id": "301f035b-f851-4802-97e1-5e5d40e45f8d",
+      "value": false
+    }
+  ],
+  "variationJsonSchema": null,
+  "temporary": true,
+  "tags": [
+    "CLONNED"
+  ],
+  "maintainerId": "686c1601eba33d0931cb0ee6",
+  "goalIds": [],
+  "experiments": {
+    "baselineIdx": 0,
+    "items": []
+  },
+  "customProperties": {},
+  "archived": false,
+  "deprecated": false,
+  "defaults": {
+    "onVariation": 0,
+    "offVariation": 1
+  }
+}

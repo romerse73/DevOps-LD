@@ -1,0 +1,14 @@
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/bin/Debug/net10.0/LdFlagCloner
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/bin/Debug/net10.0/LdFlagCloner.deps.json
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/bin/Debug/net10.0/LdFlagCloner.runtimeconfig.json
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/bin/Debug/net10.0/LdFlagCloner.dll
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/bin/Debug/net10.0/LdFlagCloner.pdb
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/obj/Debug/net10.0/LdFlagCloner.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/obj/Debug/net10.0/LdFlagCloner.AssemblyInfoInputs.cache
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/obj/Debug/net10.0/LdFlagCloner.AssemblyInfo.cs
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/obj/Debug/net10.0/LdFlagCloner.csproj.CoreCompileInputs.cache
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/obj/Debug/net10.0/LdFlagCloner.dll
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/obj/Debug/net10.0/refint/LdFlagCloner.dll
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/obj/Debug/net10.0/LdFlagCloner.pdb
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/obj/Debug/net10.0/LdFlagCloner.genruntimeconfig.cache
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategies/LDStrategies/dev/dotnet-clone/LdFlagCloner/obj/Debug/net10.0/ref/LdFlagCloner.dll

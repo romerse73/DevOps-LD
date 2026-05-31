@@ -66,7 +66,7 @@ await Parallel.ForEachAsync(flagKeys, async (flagKey, ct) =>
     await CloneFlagWithRetry(flagKey, sourceProject, destinationProject, client);
 });
 
-async Task CloneFlagWithRetry(string flagKey, string sourceProj, string destProj, HttpClient httpClient, int maxRetries = 2)
+async Task CloneFlagWithRetry(string flagKey, string sourceProj, string destProj, HttpClient httpClient, int maxRetries = 1)
 {
     int attempt = 0;
     while (attempt < maxRetries)
@@ -89,7 +89,8 @@ async Task CloneFlagWithRetry(string flagKey, string sourceProj, string destProj
             var obj = jsonNode.AsObject();
             
             // Remove system fields
-            string[] toRemove = { "_links", "_maintainer", "environments", "creationDate", "lastModified", "_version", "includeSnippet"};
+            string[] toRemove = { "_links", "_maintainer", "environments", "creationDate", "lastModified", "_version", "includeSnippet","maintainerId",
+            "archived","deprecated"};
             foreach (var prop in toRemove) obj.Remove(prop);
 
 

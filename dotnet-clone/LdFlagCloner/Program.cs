@@ -89,11 +89,8 @@ async Task CloneFlagWithRetry(string flagKey, string sourceProj, string destProj
             var obj = jsonNode.AsObject();
             
             // Remove system fields
-            string[] toRemove = { "_links", "_maintainer", "environments", "creationDate", "lastModified", "_version", "includeSnippet","maintainerId",
-            "archived","deprecated"};
+            string[] toRemove = { "_links", "_maintainer", "clientSideAvailability" ,"environments", "creationDate", "lastModified", "_version", "includeSnippet"};
             foreach (var prop in toRemove) obj.Remove(prop);
-
-
 
             // Add tag "CLONNED"
             JsonArray tags = obj["tags"]?.AsArray() ?? new JsonArray();

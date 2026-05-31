@@ -1,0 +1,15 @@
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/bin/Debug/net10.0/LdFlagDeleter
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/bin/Debug/net10.0/LdFlagDeleter.deps.json
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/bin/Debug/net10.0/LdFlagDeleter.runtimeconfig.json
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/bin/Debug/net10.0/LdFlagDeleter.dll
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/bin/Debug/net10.0/LdFlagDeleter.pdb
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/obj/Debug/net10.0/LdFlagDeleter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/obj/Debug/net10.0/LdFlagDeleter.AssemblyInfoInputs.cache
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/obj/Debug/net10.0/LdFlagDeleter.AssemblyInfo.cs
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/obj/Debug/net10.0/LdFlagDeleter.csproj.CoreCompileInputs.cache
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/obj/Debug/net10.0/LdFlagDeleter.sourcelink.json
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/obj/Debug/net10.0/LdFlagDeleter.dll
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/obj/Debug/net10.0/refint/LdFlagDeleter.dll
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/obj/Debug/net10.0/LdFlagDeleter.pdb
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/obj/Debug/net10.0/LdFlagDeleter.genruntimeconfig.cache
+/Users/sergioromero/Library/CloudStorage/GoogleDrive-sergioaromero@gmail.com/My Drive/obsidian/ldStrategiesroot/LDStrategieslocal/dev/NetDelete/LdFlagDeleter/obj/Debug/net10.0/ref/LdFlagDeleter.dll

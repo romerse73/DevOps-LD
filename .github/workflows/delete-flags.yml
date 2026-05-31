@@ -1,0 +1,36 @@
+name: Delete LaunchDarkly Flags
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_project:
+        description: 'Source Project Key'
+        required: true
+        type: string
+      flag_keys:
+        description: 'Flag Keys (separated by :)'
+        required: true
+        type: string
+
+jobs:
+  delete-flags:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build Utility
+        run: dotnet build LdFlagDeleter/LdFlagDeleter.csproj -c Release
+
+      - name: Run Deletion
+        env:
+          LD_API_KEY: ${{ secrets.LD_API_KEY }}
+        run: |
+          dotnet run --project LdFlagDeleter/LdFlagDeleter.csproj -c Release -- \
+            --SourceProject "${{ github.event.inputs.source_project }}" \
+            --FlagKeys "${{ github.event.inputs.flag_keys }}"
